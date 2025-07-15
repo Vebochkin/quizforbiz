@@ -1,0 +1,1081 @@
+#LeftBarLk {
+    border: 1px solid #1d2a33;
+    border-radius: 25px;
+    width: 100%;
+    height: 902px;
+    box-shadow: inset 0 -76px 57px -36px #105efe;
+    background: #0f181e;
+    .head {
+        display: flex;
+        height: 97px;
+        width: 100%;
+        position: relative;
+        >img {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: 14px;
+            width: 63px;
+            height: 63px;
+        }
+        img {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .balance {
+            width: 117px;
+            height: 97px;
+            border: 1px solid rgba(29, 42, 51, 0.33);
+            border-top: none;
+            border-bottom: none;
+            padding: 22px 5px;
+            margin-left: auto;
+            margin-right: 21px;
+            padding-left: 14px;
+            > button {
+                border: none;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                width: auto;
+                height: 18px;
+                padding: 0;
+                background: none;
+                p {
+                    font-weight: 700;
+                    font-size: 12px;
+                    color: #fff;  
+                    margin-top: 17px;  
+                    margin-left: 5px;      
+                    &.minus {
+                        color: #ff3a3a;
+                    }         
+                }
+            }
+            >p {
+                font-weight: 500;
+                font-size: 12px;
+                color: #6f8ca6;
+                margin-bottom: 5px;
+                img {
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .account {
+            height: 100%;
+            width: 64px;
+            margin-right: 17px;
+            position: relative;
+            >button {
+                height: 63px;
+                width: 63px;
+                font-weight: 700;
+                font-size: 28px;
+                letter-spacing: -0.02em;
+                text-align: center;
+                color: #fff;
+                border-radius: 100%;
+                border: none;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .base {
+                background: url(../../../img/leftbar/base.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .optim, .prem {
+                background: url(../../../img/leftbar/optim.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .new {
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                text-align: center;
+                background: #ff3a3a;
+                font-weight: 700;
+                font-size: 7px;
+                color: #fff;
+                position: absolute;
+                right: 0;
+                top: 20px;
+                left: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    > .applications {
+        cursor: pointer;
+        width: 100%;
+        height: 72px;
+        background: #141e27;
+        padding-left: 23px;
+        padding-right: 34px;
+        display: flex;
+        align-items: center;
+        img {
+            height: 20px;
+            width: 20px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            margin-left: 11px;
+            margin-bottom: 0;
+        }
+        .count {
+            width: 31px;
+            height: 31px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #244529;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(../../../img/leftbar/count.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    >.rate {
+        cursor: pointer;
+        width: 100%;
+        height: 72px;
+        padding-left: 23px;
+        padding-right: 28px;
+        display: flex;
+        align-items: center;
+        img {
+            height: 20px;
+            width: 20px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            margin-left: 11px;
+            margin-bottom: 0;
+        }
+        >.rates {
+            border-radius: 17px;
+            width: 45px;
+            height: 34px;
+            background: #141e27;
+            border: none;
+            margin-left: auto;
+            margin-right: 3px;
+            display: none;
+            font-weight: 500;
+            font-size: 7px;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            &.activ {
+                display: flex !important;
+            }
+        }
+        
+        .plus {
+            border-radius: 17px;
+            width: 34px;
+            height: 34px;
+            border: none;
+            background: #141e27;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 12px;
+            color: #fff;
+        }
+    }
+    nav {
+        border: 1px solid #1d2a33;
+        border-radius: 25px;
+        width: auto;
+        height: 493px;
+        margin-left: 7px;
+        margin-right: 7px;
+        background: #0f181e;
+        position: relative;
+        .btns {
+            height: 430px;
+            width: 100%;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 9px;   
+            border: none;
+            border-bottom: 1px solid #1d2a33;
+            border-radius: 25px;  
+            position: relative;
+            background: #0f181e;
+            > button {
+                width: 100%;
+                height: 82px;
+                border-radius: 18px;
+                padding-left: 38px;
+                padding-right: 41px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 6px;
+                font-weight: 300;
+                font-size: 18px;
+                color: #fff;
+                border: 1px solid #1d2a33 !important;
+                background: #0f181e !important;
+                img {
+                    background: none;
+                }                
+                &.active {
+                    background: #105efe !important;
+                    border: none !important;
+                    font-weight: 500 !important;                    
+                }
+                >div {
+                    border-radius: 17px;
+                    width: 45px;
+                    height: 34px;
+                    background: #141e27;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: -10px;
+                }
+            }       
+            a {
+                width: 222px;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 18px;
+                color: #fff;
+                bottom: 17px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                    background: none !important;
+                    margin-top: -4px;
+                    margin-right: 8px;
+                }
+            }            
+        }
+        a {
+            width: 173px;
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 18px;
+            color: #fff;
+            bottom: 17px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            img {
+                background: none !important;
+                margin-top: -4px;
+                margin-right: 8px;
+            }
+        }  
+    }
+    .refer {
+        padding-top: 34px;
+        p {
+            text-align: center;
+            font-weight: 300;
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 17px;
+        }
+        > button {
+            border-radius: 18px;
+            width: 109px;
+            height: 38px;
+            background: #fff;
+            font-weight: 400;
+            font-size: 14px;
+            color: #105efe;
+            border: none;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }        
+    }
+
+}
+#modal, #modalBg {
+    display: none;
+}   
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #LeftBarLk {
+        border: 0.81px solid #1d2a33;
+        border-radius: 20px;
+        height: 813px;
+        box-shadow: inset 0 -57px 57px -36px #105efe;
+        background: #0f181e;
+        .head {
+            height: 78px;
+            >img {
+                margin-left: 11px;
+                height: 51px;
+                width: 51px;
+            }
+            .balance {
+                width: 95px;
+                height: 78px;
+                border: 0.81px solid #1d2a33;
+                border-top: none;
+                border-bottom: none;
+                padding: 0;
+                padding-top: 22px;
+                padding-left: 10px;
+                >button {
+                    height: 15px;
+                    p {
+                        margin: 0 !important;
+                        font-weight: 700;
+                        font-size: 9px;
+                        color: #fff;
+                    }
+                    img {
+                        height: 15px;
+                        width: 15px;
+                        margin: 0;
+                        margin-right: 3px;
+                    }
+                }
+                >p {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 9px;
+                    color: #6f8ca6;
+                    margin-bottom: 5px;
+                    >img {
+                        margin-top: 7px;
+                        margin-left: 0;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .account {
+                width: 47px;
+                margin-right: 14px;
+                >button {
+                    height: 47px;
+                    width: 47px;
+                    font-weight: 700;
+                    font-size: 22px;
+                    letter-spacing: -0.02em;
+                }
+                .new {
+                    width: 13px;
+                    height: 13px;
+                }
+            }
+        }
+        >.applications {
+            height: 68px;
+            padding-left: 18px;
+            padding-right: 27px;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                color: #fff;
+                margin-left: 10px;
+            }
+            .count {
+                width: 25px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 12px;
+                color: #244529;
+            }
+        }
+        >.rate {
+            height: 68px;
+            padding-left: 18px;
+            padding-right: 27px;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                color: #fff;
+                margin-left: 10px;
+            }
+            .rates {
+                border-radius: 14px;
+                width: 36px;
+                height: 27px;
+                background: #141e27;
+                margin-right: 2px;
+                font-weight: 500;
+                font-size: 5px;
+                color: #fff;
+            }
+            .plus {
+                border-radius: 14px;
+                width: 27px;
+                height: 27px;
+                background: #141e27;
+                font-weight: 500;
+                font-size: 5px;
+                color: #fff;
+            }
+        }
+        > nav {
+            border: 0.81px solid #1d2a33;
+            border-radius: 20px;
+            height: 396px;
+            margin-left: 5px;
+            margin-right: 5px;
+            .btns {
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 7px;
+                height: 345px;
+                > button {
+                    border-radius: 15px;
+                    height: 66px;
+                    padding-left: 30px;
+                    padding-right: 33px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                    > img {
+                        width: 14px;
+                        height: 11px;
+                    }
+                    >div {
+                        border-radius: 14px;
+                        width: 36px;
+                        height: 27px;
+                        background: #141e27;
+                        font-weight: 500;
+                        font-size: 11px;
+                        color: #fff;
+                    }
+                }
+                a {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                    width: 180px;
+                    img {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+            a {
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+                width: 137px;
+                img {
+                    width: 19px;
+                    height: 19px;
+                }
+            }
+        }
+        >.refer {
+            padding-top: 98px;
+            p {
+                font-weight: 300;
+                font-size: 16px;
+                color: #fff;
+                margin-bottom: 16px;
+            }
+            button {
+                border-radius: 17px;
+                width: 102px;
+                height: 35px;
+                font-weight: 400;
+                font-size: 13px;
+                color: #105efe;
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #LeftBarLk {
+        border: 0.68px solid #1d2a33;
+        border-radius: 17px;
+        height: 687px;
+        box-shadow: inset 0 -48px 48px -30px #105efe;
+        background: #0f181e;
+        .head {
+            height: 66px;
+            >img {
+                margin-left: 9px;
+                height: 43px;
+                width: 43px;
+            }
+            .balance {
+                height: 66px;
+                width: 80px;
+                border: 0.68px solid #1d2a33;
+                border-top: none;
+                border-bottom: none;
+                padding-left: 9px;
+                padding-top: 19px;
+                padding-bottom: 0;
+                margin-right: 14px;
+                >button {
+                    height: 12px;
+                    margin-left: 0;
+                    p {
+                        font-weight: 700;
+                        font-size: 8px;
+                        color: #fff;
+                    }
+                    img {
+                        height: 12px;
+                        width: 12px;
+                        margin-left: 0;
+                        margin-top: 0;
+                    }
+                }
+                >p {
+                    font-weight: 500;
+                    font-size: 8px;
+                    color: #6f8ca6;
+                    margin-bottom: 4px;
+                    >img {
+                        margin-right: 3px;
+                        margin-left: 0;
+                        margin-top: 4px;
+                        height: 6px;
+                        width: 6px;
+                    }
+                }                
+            }
+            .account {
+                width: 43px;
+                margin-right: 11px;
+                >button {
+                    width: 43px;
+                    height: 43px;
+                    font-weight: 700;
+                    font-size: 19px;
+                    letter-spacing: -0.02em;
+                }
+                >.new {
+                    width: 11px;
+                    height: 11px;
+                    top: 12px;
+                }
+            }
+        }
+        >.applications {
+            height: 57px;
+            padding-left: 15px;
+            padding-right: 23px;
+            p {
+                font-weight: 500;
+                font-size: 12px;
+                color: #fff;
+                margin-left: 7px;
+            }
+            img {
+                height: 13px;
+                width: 13px;
+            }
+            .count {
+                font-weight: 700;
+                font-size: 10px;
+                color: #244529;
+                height: 22px;
+                width: 22px;
+            }
+        }
+        >.rate {
+            height: 57px;
+            padding-left: 15px;
+            padding-right: 23px;
+            p {
+                font-weight: 500;
+                font-size: 12px;
+                color: #fff;
+                margin-left: 7px;
+            }
+            img {
+                height: 13px;
+                width: 13px;
+            }
+            .rates {
+                border-radius: 12px;
+                width: 30px;
+                height: 23px;
+                font-weight: 500;
+                font-size: 4px;
+                color: #fff;
+                margin-right: 2px;
+            }
+            .plus {
+                border-radius: 12px;
+                width: 23px;
+                height: 23px;
+                font-weight: 500;
+                font-size: 4px;
+                color: #fff;
+            }
+        }
+        > nav {
+            border: 0.68px solid #1d2a33;
+            border-radius: 17px;
+            height: 337px;
+            margin-left: 4px;
+            margin-right: 4px;
+            .btns {
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 6px;
+                border-bottom: 0.68px solid #1d2a33;
+                border-radius: 17px;
+                height: 294px;
+                >button {
+                    border: 0.68px solid #1d2a33;
+                    border-radius: 12px;
+                    height: 56px;
+                    padding-left: 24px;
+                    padding-right: 19px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #fff;
+                    img {
+                        height: 9px;
+                        width: 12px;
+                    }
+                    >div {
+                        border-radius: 12px;
+                        width: 30px;
+                        height: 23px;
+                        background: #141e27;
+                        font-weight: 500;
+                        font-size: 9px;
+                        color: #fff;
+                    }
+                }
+                a {
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #fff;
+                    width: 152px;
+                    bottom: 11px;
+                    img {
+                        width: 16px;
+                        height: 16px;
+                        margin-right: 6px;
+                        margin-top: -2px;
+                    }
+                }
+            }
+            a {
+                font-weight: 300;
+                font-size: 12px;
+                color: #fff;
+                width: 118px;
+                bottom: 13px;
+                img {
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 6px;
+                    margin-top: -2px;
+                }
+            }
+        }
+        >.refer {
+            padding-top: 84px;
+            p {
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+                margin-bottom: 13px;
+            }
+            button {
+                border-radius: 14px;
+                width: 87px;
+                height: 30px;
+                font-weight: 400;
+                font-size: 11px;
+                color: #105efe;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    #LeftBarLkMobile {
+        border: 1px solid #1d2a33;
+        border-radius: 25px;
+        height: 97px;
+        background: #0f181e;
+        .head {
+            display: flex;
+            align-items: center;
+            height: 97px;
+            width: 100%;
+            position: relative;
+            >.burger {
+                width: 45px;
+                height: 27px;
+                margin-left: 12px;
+                background: url(../../../img/leftbar/burger.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: none;
+            }
+            >img {
+                width: 63px;
+                height: 63px;
+                margin-left: 23px;
+            }
+            >.balance {
+                max-width: 117px;
+                height: 97px;
+                border: none;
+                border-left: 1px solid #1d2a33;
+                border-right: 1px solid #1d2a33;
+                margin-left: 12px;
+                margin-right: 2px;
+                padding-left: 13px;
+                padding-top: 29px;  
+                padding-right: 19px;              
+                >button {
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    width: auto;
+                    background: none;
+                    height: 18px;
+                    padding: 0;
+                    margin-top: 6px;
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        margin-right: 4px;
+                    }
+                    p {
+                        font-weight: 700;
+                        font-size: 12px;
+                        color: #fff; 
+                        margin: 0;
+                        padding: 0;                       
+                    }
+                }
+                >p {
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #6f8ca6;
+                    margin: 0;
+                    padding: 0;
+                    img {
+                        width: 10px;
+                        height: 10px;
+                        margin-right: 5px;
+                        margin-top: -3px;
+                    }
+                }
+            }
+            .account {
+                height: 100%;
+                width: 64px;
+                margin-right: 10px;
+                margin-left: auto;
+                position: relative;
+                >button {
+                    height: 63px;
+                    width: 63px;         
+                    font-weight: 700;
+                    font-size: 28px;
+                    letter-spacing: -0.02em;
+                    text-align: center;
+                    color: #fff;     
+                    border-radius: 100%;
+                    border: none;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);  
+                }
+                .base {
+                    background: url(../../../img/leftbar/base.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .optim, .prem {
+                    background: url(../../../img/leftbar/optim.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .new {
+                    width: 17px;
+                    height: 17px;
+                    border-radius: 100%;
+                    text-align: center;
+                    background: #ff3a3a;
+                    font-weight: 700;
+                    font-size: 9px;
+                    color: #fff;
+                    position: absolute;
+                    right: 0;
+                    top: 19px;
+                    left: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    #modal, #modalBg {
+        display: none;
+    }    
+    #modal.active {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: calc(100vw - 20px);
+        min-height: 796px; 
+        height: 100vh;
+
+        z-index: 1000;
+        box-shadow: inset 0 -60px 57px -36px #105efe;
+        background: #0f171f;
+        border-radius: 0 25px 25px 0;
+        padding-top: 78px;
+        overflow-y: auto;
+        >.close {
+            background: url(../../../img/leftbar/close.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 27px;
+            width: 27px;
+            position: absolute;
+            right: 25px;
+            top: 26px;
+            border: none;
+        }
+        >.applications, >.rate {
+            width: 100%;
+            height: 84px;
+            background: #141e27;
+            padding-left: 25px;
+            padding-right: 25px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                color: #fff;
+                margin: 0;
+                margin-left: 11px;
+
+            }
+            >.count {
+                width: 31px;
+                height: 31px;
+                font-weight: 700;
+                font-size: 16px;
+                color: #244529;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: url(../../../img/leftbar/count.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: auto;
+                margin-right: 0;
+            }
+            >.rates {
+                border-radius: 17px;
+                width: 45px;
+                height: 34px;
+                background: #141e27;
+                border: none;
+                margin-left: auto;
+                margin-right: 3px;
+                display: none;
+                font-weight: 500;
+                font-size: 7px;
+                color: #fff;
+                align-items: center;
+                justify-content: center;
+            }
+            >.activ {
+                display: flex;
+            }
+            >.plus {
+                border-radius: 17px;
+                width: 34px;
+                height: 34px;
+                border: none;
+                background: #141e27;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+                font-size: 12px;
+                color: #fff;
+            }
+        }
+        >.rate {
+            background: none;
+        }
+        >nav {
+            width: auto;
+            height: 426px;
+            margin-left: 15px;
+            margin-right: 15px;
+            border: 1px solid #1d2a33;
+            border-radius: 25px;
+            background: #0f181e;
+            position: relative;
+            >.btns {
+                border: none;
+                border-bottom: 1px solid #1d2a33;
+                border-radius: 25px;
+                height: 352px;
+                padding: 9px 11px 0;
+                position: relative;
+                > button {
+                    width: 100%;
+                    height: 82px;
+                    border-radius: 18px;
+                    padding-left: 38px;
+                    padding-right: 41px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 6px;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #fff;
+                    background: #0f181e !important;
+                    border: 1px solid #1d2a33 !important;                    
+                    &.active {
+                        background: #105efe !important;
+                        border: none !important;
+                        font-weight: 500 !important;                        
+                    }
+                    >div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: auto;
+                        margin-right: -10px;
+                        border-radius: 17px;
+                        width: 45px;
+                        height: 34px;
+                        background: #141e27;
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }       
+                a {
+                    width: 222px;
+                    text-decoration: none;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #fff;
+                    bottom: 29px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        background: none !important;
+                        margin-top: -4px;
+                        margin-right: 8px;
+                    }
+                }  
+            }
+            a {
+                width: 173px;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 18px;
+                color: #fff;
+                bottom: 26px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                    width: 24px;
+                    height: 24px;
+                    background: none !important;
+                    margin-top: -4px;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .refer {
+            padding-top: 25px;
+            p {
+                text-align: center;
+                font-weight: 300;
+                font-size: 18px;
+                color: #fff;
+                margin-bottom: 17px;
+            }
+            > button {
+                border-radius: 18px;
+                width: 109px;
+                height: 38px;
+                background: #fff;
+                font-weight: 400;
+                font-size: 14px;
+                color: #105efe;
+                border: none;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }        
+        }
+    }
+    #modalBg.active {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #0a1116;
+        z-index: 99;
+    }
+}

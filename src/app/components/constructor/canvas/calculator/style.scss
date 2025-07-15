@@ -1,0 +1,494 @@
+.type {
+    >div {
+        #calculator {
+            width: 100%;
+            height: 480px;
+            border: 1px solid #1d2a33;
+            border-radius: 25px;
+            background: #0f181e;
+            position: relative;
+            >.head {
+                width: 100%;
+                height: 76px;
+                display: flex;
+                align-items: center;
+                padding-left: 30px;
+                padding-right: 17px;
+                border: none;
+                border-bottom: 1px solid #1d2a33;
+                >img {
+                    margin-right: 14px;
+                    margin-top: -2px;
+                }
+                >h4 {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    margin: 0;
+                    min-width: 50px;
+                }
+                >.index {
+                    margin-left: auto;
+                    margin-right: 0;
+                    width: 31px;
+                    height: 31px;
+                    border: none;
+                    border-radius: 100%;
+                    background: rgba(106, 132, 150, 0.33);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                }
+            }
+            >.range {
+                width: 100%;
+                height: 144px;
+                padding-left: 30px;
+                padding-right: 17px;
+                padding-top: 24px;
+                border: none;
+                border-bottom: 1px solid #1d2a33;
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #8ea6b7;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+                >div {
+                    width: 681px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    >input {
+                        margin: 0;
+                        border: 1px solid #1d2a33;
+                        border-radius: 18px;
+                        width: 317px;
+                        height: 61px;
+                        background: none;
+                        padding-left: 18px;
+                        font-weight: 300;
+                        font-size: 16px;
+                        color: #fff;
+                        &::placeholder {
+                        font-weight: 300;
+                        font-size: 16px;
+                        color: rgba(106, 132, 150, 0.33);
+                        }
+                    }
+                    >div {
+                        width: 10px;
+                        height: 2px;
+                        background: #1d2a33;
+                    }                
+                }
+
+            }
+            >.init_value, >.step {
+                width: 100%;
+                height: 101px;
+                display: flex;
+                align-items: center;
+                padding-left: 30px;
+                border: none;
+                border-bottom: 1px solid #1d2a33;
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #8ea6b7;
+                    margin: 0;
+                    margin-right: 35px;
+                }
+                input {
+                    border: 1px solid #1d2a33;
+                    border-radius: 18px;
+                    width: 491px;
+                    height: 61px;
+                    background: none;
+                    padding-left: 23px;
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #fff;
+                    &::placeholder {
+                        font-weight: 300;
+                        font-size: 16px;
+                        color: rgba(106, 132, 150, 0.33);
+                    }
+                }
+            }
+            >.step {
+                border: none;
+            }
+            >:nth-last-child(1) {
+                position: absolute;
+                right: 27px;
+                bottom: 23px;
+                cursor: pointer;
+                margin: 0;
+                font-weight: 300;
+                font-size: 16px;
+                color: #fff;
+                img {
+                    margin-right: 7px;
+                    width: 10px;
+                    height: 10px;
+                    margin-top: -2px;
+                }
+            }
+        }  
+        >.btns {
+            position: absolute;
+            right: 40px;
+            bottom: 30px;
+            width: 85px;
+            height: 46px;
+            display: flex;
+            justify-content: space-between;
+            button {
+                width: 33px;
+                height: 46px;
+                border: none;
+                background: url(../../../../img/Constructor/create/arrow2.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            >:nth-child(1) {
+                transform: rotate(180deg);
+            }            
+            >.disactive {
+                background: url(../../../../img/Constructor/create/arrow3.svg);
+            }
+        }
+        >:nth-last-child(1).plus {
+            width: 69px;
+            height: 69px;
+            border-radius: 100%;
+            border: none;
+            background: #105efe;
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }        
+    }
+  
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .type {
+        >div {
+            #calculator {
+                border: 0.81px solid #1d2a33;
+                border-radius: 20px;
+                height: 422px;
+                >.head {
+                    height: 62px;
+                    padding-left: 24px;
+                    padding-right: 13px;
+                    border-bottom: 0.81px solid #1d2a33;
+                    >img {
+                        margin-right: 11px;
+                        width: 13px;
+                        height: 15px;
+                    }
+                    >h4 {
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #fff;
+                    }
+                    >.index {
+                        width: 25px;
+                        height: 25px;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #fff;
+                    }
+                }
+                >.range {
+                    border-bottom: 0.81px solid #1d2a33;
+                    height: 118px;
+                    padding-left: 24px;
+                    padding-top: 19px;
+                    p {
+                        font-weight: 300;
+                        font-size: 13px;
+                        color: #8ea6b7;
+                        margin-bottom: 16px;
+                    }
+                    >div {
+                        width: 553px;
+                        >input {
+                            border: 0.81px solid #1d2a33;
+                            border-radius: 15px;
+                            width: 257px;
+                            height: 49px;
+                            padding-left: 15px;
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: #fff;
+                            &::placeholder {
+                                font-weight: 300;
+                                font-size: 13px;
+                            }
+                        }
+                        >div {
+                            width: 8px;
+                            height: 1px;
+                        }
+                    }
+                }
+                >.init_value, >.step {
+                    padding-left: 24px;
+                    height: 82px;
+                    border-bottom: 0.81px solid #1d2a33;
+                    p {
+                        font-weight: 300;
+                        font-size: 13px;
+                        color: #8ea6b7;
+                        margin-right: 28px;
+                    }
+                    input {
+                        border: 0.81px solid #1d2a33;
+                        border-radius: 15px;
+                        width: 399px;
+                        height: 49px;
+                        font-weight: 300;
+                        font-size: 13px;
+                        padding-left: 18px;
+                        color: #fff;
+                        &::placeholder {
+                            font-weight: 300;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                >.step {
+                    border: none;
+                }
+                >:nth-last-child(1) {
+                    font-weight: 300;
+                    font-size: 13px;
+                    color: #fff;
+                    bottom: 18px;
+                    right: 21px;
+                    img {
+                        margin-right: 6px;
+                        width: 8px;
+                        height: 8px;
+                    }
+                }  
+ 
+            }
+            >:nth-last-child(1).plus {
+                width: 59px !important;
+                height: 59px !important;
+                margin-top: 15px !important;
+                img {
+                    width: 27px;
+                    height: 27px;
+                }
+            }             
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .type {
+        >div {
+            #calculator {
+                height: 364px;
+                border: 0.68px solid #1d2a33;
+                border-radius: 17px;
+                >.head {
+                    height: 52px;
+                    padding-left: 20px;
+                    padding-right: 12px;
+                    border-bottom: 0.68px solid #1d2a33;
+                    >img {
+                        width: 11px;
+                        height: 12px;
+                        margin-right: 10px;
+                    }
+                    >h4 {
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                    >.index {
+                        width: 21px;
+                        height: 21px;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                }
+                >.range {
+                    border-bottom: 0.68px solid #1d2a33;
+                    height: 99px;
+                    padding-left: 20px;
+                    padding-top: 16px;
+                    p {
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #8ea6b7;
+                        margin-bottom: 14px;
+                    }
+                    >div {
+                        width: 466px;
+                        >input {
+                            border: 0.68px solid #1d2a33;
+                            border-radius: 12px;
+                            width: 216px;
+                            height: 41px;
+                            padding-left: 12px;
+                            font-weight: 300;
+                            font-size: 10px;
+                            color: #fff;
+                            &::placeholder {
+                                font-weight: 300;
+                                font-size: 10px;
+                            }
+                        }
+                        >div {
+                            width: 6px;
+                            height: 1px;
+                        }
+                    }
+                }
+                >.init_value, >.step {
+                    padding-left: 20px;
+                    height: 69px;
+                    border-bottom: 0.68px solid #1d2a33;
+                    p {
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #8ea6b7;
+                        margin-right: 23px;
+                    }
+                    input {
+                        border: 0.68px solid #1d2a33;
+                        border-radius: 12px;
+                        width: 335px;
+                        height: 41px;
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #fff;
+                        &::placeholder {
+                            font-weight: 300;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                >.step {
+                    border: none;
+                }
+                >:nth-last-child(1) {
+                    bottom: 16px;
+                    right: 18px;
+                    font-weight: 300;
+                    font-size: 10px;
+                    color: #fff;
+                    img {
+                        margin-right: 5px;
+                        width: 7px;
+                        height: 7px;
+                    }
+                }  
+  
+            }
+            >:nth-last-child(1).plus {
+                width: 47px !important;
+                height: 47px !important;
+                margin-top: 10px !important;
+                img {
+                    width: 23px;
+                    height: 23px;
+                }
+            }      
+            >.plus {
+                position: absolute;
+                left: 20px;
+                bottom: 17px !important;
+            }       
+        }
+    }
+}
+@media (max-width: 576px) {
+    .type {
+        height: auto;
+        >div {
+            #calculator {
+                height: 498px;
+                >.head {
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    height: 52px;
+                    >img {
+                        width: 17px;
+                        height: 18px;
+                        margin-right: 14px;
+                    }
+                }
+                >.range {
+                    height: 169px;
+                    padding-top: 18px;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    p {
+                        margin-bottom: 31px;
+                    }
+                    >div {
+                        width: 100%;
+                        gap: 22px;
+                        >input {
+                            width: 100%;
+                        }
+                    }
+                }
+                >.init_value, >.step {
+                    height: 101px;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    p {
+                        margin: 0;
+                    }
+                    input {
+                        border: 1px solid #1d2a33;
+                        border-radius: 18px;
+                        width: 130px;
+                        height: 61px;
+                        margin-left: auto;
+                        margin-right: 0;
+                    }
+                }
+                >.step {
+                    border: none;
+                }
+                >.delete {
+                    bottom: -60px;
+                    right: auto;
+                    left: 65px;
+                }
+            }
+            >.plus {
+                width: 47px !important;
+                height: 47px !important;
+                bottom: -60px !important;
+                left: 10px !important;
+                img {
+                    width: 23px;
+                    height: 23px;
+                }
+            }
+            .btns {
+                bottom: 18px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#LeftBar {
+    height: 100vh;
+    background: #0f181e;
+    >div {
+        width: 100%;
+        border-radius: 6px;
+        height: 67px;
+        border: none;
+        background: none;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 147%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        cursor: pointer;
+        img {
+            width: 22px;
+            height: 22px;
+            margin-right: 22px;
+        }
+    }
+    >div.active {
+        background: #192a35;
+    }
+}

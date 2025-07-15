@@ -1,0 +1,585 @@
+#deposits {
+    width: 100%;
+    height: 902px;
+    border: 1px solid #1d2a33;
+    border-radius: 25px;
+    background: #0f181e;
+    padding-top: 31px;
+    h2 {
+        margin: 0;
+        margin-left: 54px;
+        font-weight: 500;
+        font-size: 26px;
+        color: #fff;
+    }
+    >.history {
+        margin-top: 36px;
+        border: none;
+        border-top: 1px solid #1d2a33;
+        border-radius: 25px;
+        background: #0f181e;
+        .filt {
+            width: 100%;
+            display: flex;
+            padding-top: 21px;
+            margin-bottom: 18px;
+            p {
+                margin: 0;
+                font-weight: 300;
+                font-size: 14px;
+                color: #425766;
+            }
+            >:nth-child(1) {
+                margin-left: 54px;
+            }
+            >:nth-child(2) {
+                margin-left: 125px;
+            }
+            >:nth-child(3) {
+                margin-left: 204px;
+            }
+            >:nth-child(4) {
+                margin-left: 153px;
+            }
+        }
+        .items {
+            width: 100%;
+            padding-left: 17px;
+            padding-right: 17px;
+            >.item {
+                border: 1px solid rgba(66, 87, 102, 0.1);
+                border-radius: 20px;
+                width: 100%;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                background: #141e27;
+                position: relative;
+                margin-bottom: 5px;
+                >.id {
+                    border-radius: 34px;
+                    width: 41px;
+                    height: 27px;
+                    background: #1f2c38;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #fff;
+                    margin-left: 24px;
+                }
+                >.date {
+                    margin: 0;
+                    position: absolute;
+                    left: 210px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                }
+                >.money {
+                    margin: 0;
+                    position: absolute;
+                    left: 445px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #fff;
+                }
+                >:nth-child(4) {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 668px;
+                    border: none;
+                    border-radius: 20px;
+                    width: 121px;
+                    height: 37px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                >.trash {
+                    position: absolute;
+                    left: auto;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 26px;
+                    width: 18px;
+                    height: 20px;
+                    background: none;
+                    padding: 0;
+                    border: none;
+                    img {
+                        margin-top: -7px;
+                    }
+                }
+            }
+        }
+    }
+}
+#write_off {
+    width: 100%;
+    height: 902px;
+    border: 1px solid #1d2a33;
+    border-radius: 25px;
+    background: #0f181e;
+    padding-top: 31px;
+    h2 {
+        margin: 0;
+        margin-left: 54px;
+        font-weight: 500;
+        font-size: 26px;
+        color: #fff;
+    }
+    >.history {
+        margin-top: 36px;
+        border: none;
+        border-top: 1px solid #1d2a33;
+        border-radius: 25px;
+        background: #0f181e;
+        >.filt {
+            width: 100%;
+            display: flex;
+            padding-top: 21px;
+            margin-bottom: 18px;
+            p {
+                margin: 0;
+                font-weight: 300;
+                font-size: 14px;
+                color: #425766;
+            }
+            >:nth-child(1) {
+                margin-left: 54px;
+            }
+            >:nth-child(2) {
+                margin-left: 103px;
+            }
+            >:nth-child(3) {
+                margin-left: 364px;
+            }
+        }
+        >.items {
+            width: 100%;
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #deposits { 
+        border: 0.81px solid #1d2a33;
+        border-radius: 20px;
+        height: 816px;
+        padding-top: 25px;
+        h2 {
+            font-weight: 500;
+            font-size: 21px;
+            color: #fff;
+            margin-left: 43px;
+        }
+        >.history {
+            margin-top: 38px;
+            border: 0.81px solid #1d2a33;
+            border-radius: 20px;
+            height: 723px;
+            >.filt {
+                padding-top: 7px;
+                margin-bottom: 12px;
+                p {
+                    font-weight: 300;
+                    font-size: 11px;
+                    color: #425766;
+                }
+                >:nth-child(1) {
+                    margin-left: 44px;
+                }
+                >:nth-child(2) {
+                    margin-left: 101px;
+                }
+                >:nth-child(3) {
+                    margin-left: 165px;
+                }
+                >:nth-child(4) {
+                    margin-left: 124px;
+                }
+            }
+            >.items {
+                padding-left: 13px;
+                padding-right: 13px;
+                >.item {
+                    border: 0.81px solid rgba(66, 87, 102, 0.1);
+                    border-radius: 16px;
+                    height: 64px;
+                    margin-bottom: 3px;
+                    >.id {
+                        border-radius: 28px;
+                        width: 33px;
+                        height: 22px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        color: #fff;
+                        margin-left: 19px;
+                    }
+                    >.date {
+                        left: 165px;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                    >.money {
+                        left: 360px;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                    >:nth-child(4) {
+                        left: 530px;
+                        border-radius: 16px;
+                        width: 97px;
+                        height: 29px;
+                        font-weight: 500;
+                        font-size: 9px;
+                    }
+                    >.trash {
+                        right: 21px;
+                        width: 14px;
+                        height: 16px;
+                        img {
+                            width: 14px;
+                            height: 16px;
+                            margin-top: -10px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    #write_off {
+        border: 0.81px solid #1d2a33;
+        border-radius: 20px;
+        height: 816px;
+        padding-top: 25px;
+        h2 {
+            font-weight: 500;
+            font-size: 21px;
+            color: #fff;
+            margin-left: 43px;
+        }
+        >.history {
+            margin-top: 38px;
+            border: none;
+            border-top: 0.81px solid #1d2a33;
+            border-radius: 20px;
+            height: 723px;
+            >.filt {
+                padding-top: 7px;
+                margin-bottom: 12px;
+                p {
+                    font-weight: 300;
+                    font-size: 11px;
+                    color: #425766;
+                }
+                >:nth-child(1) {
+                    margin-left: 36px;
+                }
+                >:nth-child(2) {
+                    margin-left: 92px;
+                }
+                >:nth-child(3) {
+                    margin-left: 350px;
+                }
+            }
+            >.items {
+                padding-left: 13px;
+                padding-right: 13px;
+
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #deposits {
+        border: 0.68px solid #1d2a33;
+        border-radius: 17px;
+        height: 687px;
+        padding-top: 21px;
+        h2 {
+            font-weight: 500;
+            font-size: 17px;
+            color: #fff;
+            margin-left: 36px;
+        }
+        >.history {
+            border-top: 0.68px solid #1d2a33;
+            border-radius: 17px;
+            height: 611px;
+            margin-top: 31px;
+            >.filt {
+                padding-top: 5px;
+                margin-bottom: 9px;
+                p {
+                    font-weight: 300;
+                    font-size: 9px;
+                    color: #425766;
+                }
+                >:nth-child(1) {
+                    margin-left: 36px;
+                }
+                >:nth-child(2) {
+                    margin-left: 85px;
+                }
+                >:nth-child(3) {
+                    margin-left: 139px;
+                }
+                >:nth-child(4) {
+                    margin-left: 104px;
+                }
+                
+            }
+            >.items {
+                padding-left: 11px;
+                padding-right: 11px;
+                >.item {
+                    border: 0.68px solid rgba(66, 87, 102, 0.1);
+                    border-radius: 14px;
+                    height: 54px;
+                    margin-bottom: 3px;
+                    >.id {
+                        border-radius: 24px;
+                        width: 28px;
+                        height: 18px;
+                        font-weight: 500;
+                        font-size: 10px;
+                        color: #fff;
+                        margin-left: 16px;
+                    }
+                    >.date {
+                        left: 142px;
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                    >.money {
+                        left: 303px;
+                        font-weight: 600;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                    >:nth-child(4) {
+                        left: 446px;
+                        border-radius: 14px;
+                        width: 82px;
+                        height: 25px;
+                        font-weight: 500;
+                        font-size: 8px;
+                    }
+                    >.trash {
+                        right: 17px;
+                        width: 12px;
+                        height: 13px;
+                        img {
+                            width: 12px;
+                            height: 13px;
+                            margin-top: -12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #write_off {
+        border: 0.68px solid #1d2a33;
+        border-radius: 17px;
+        height: 687px;
+        padding-top: 21px;
+        h2 {
+            font-weight: 500;
+            font-size: 17px;
+            color: #fff;
+            margin-left: 36px;
+        }
+        >.history {
+            border-top: 0.68px solid #1d2a33;
+            border-radius: 17px;
+            height: 611px;
+            margin-top: 31px;
+            >.filt {
+                padding-top: 5px;
+                margin-bottom: 9px;
+                p {
+                    font-weight: 300;
+                    font-size: 9px;
+                    color: #425766;
+                }
+                >:nth-child(1) {
+                    margin-left: 36px;
+                }
+                >:nth-child(2) {
+                    margin-left: 72px;
+                }
+                >:nth-child(3) {
+                    margin-left: 250px;
+                }                
+            }
+            >.items {
+                padding-left: 11px;
+                padding-right: 11px;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    #write_off {
+        height: auto;
+        border: 1px solid #1d2a33;
+        border-radius: 25px;
+        width: 100%;
+        padding: 25px 0 15px;
+        h2 {
+            font-weight: 500;
+            font-size: 20px;
+            color: #fff;
+            margin-left: 14px;
+        }
+        >.history {
+            margin-top: 25px;
+            padding: 19px 14px 0;
+            >.filt {
+                display: none;
+            }
+            >.items {
+                padding: 0;
+            }
+        }
+    }
+    #deposits {
+        border: 1px solid #1d2a33;
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        padding: 25px 0 21px;
+    
+        h2 {
+            margin-left: 14px;
+            margin-bottom: 25px;
+            font-weight: 500;
+            font-size: 20px;
+            color: #fff;
+        }
+    
+        > .history {
+            margin: 0;
+            padding-left: 14px;
+            padding-right: 14px;
+            >div {
+                width: 100%;
+                height: 100%;
+                padding-bottom: 30px;                
+                overflow-x: auto;             
+                > .filt {
+                    padding-top: 22px;
+                    margin-bottom: 15px;
+                    width: 722px; 
+                    p {
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: #425766;
+                    }
+                    > :nth-child(1) {
+                        margin-left: 37px;
+                    }
+                    > :nth-child(2) {
+                        margin-left: 65px;
+                    }
+                    > :nth-child(3) {
+                        margin-left: 154px;
+                    }
+                    > :nth-child(4) {
+                        margin-left: 83px;
+                    }
+                }
+        
+                > .items {
+                    display: inline-block; // Позволяем элементам располагаться в строку
+                    padding-left: 0;
+                    padding-right: 0;
+        
+                    > .item {
+                        border: 1px solid rgba(66, 87, 102, 0.1);
+                        border-radius: 20px;
+                        width: 722px;
+                        height: 80px;
+                        display: inline-block; // Элементы располагаются в строку
+                        margin-right: 10px; // Отступ между элементами
+        
+                        > .id {
+                            margin-left: 24px;
+                            border-radius: 34px;
+                            width: 41px;
+                            height: 27px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #fff;
+                            position: relative;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+                        > .date {
+                            left: 149px;
+                            font-weight: 300;
+                            font-size: 14px;
+                            color: #fff;
+                        }
+                        > .money {
+                            left: 334px;
+                            font-weight: 600;
+                            font-size: 14px;
+                            color: #fff;
+                        }
+                        > :nth-child(4) {
+                            border-radius: 20px;
+                            width: 121px;
+                            height: 37px;
+                            font-weight: 500;
+                            font-size: 12px;
+                            left: 488px;
+                        }
+                        > .trash {
+                            right: 26px;
+                        }
+                    }
+                }    
+                &::-webkit-scrollbar {
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    height: 6px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    background: #141e27;
+                    border-radius: 20px; 
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #fff; 
+                    border-radius: 20px; 
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #fff; 
+                }                            
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,68 @@
+body {
+    background: #0a1116;
+    height: 100vh;
+}
+.row {
+    padding-top: 25px;
+}
+.row.admin {
+    padding-top: 0 !important;
+}
+#money_for_project {
+    color: #fff;
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.pc {
+    display: block;
+}
+@media (max-width: 1399px) {
+    .row {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+}
+@media (max-width: 576px) {
+    .row {
+        padding-top: 11px;
+        padding-bottom: 0px;
+    }
+    .col-12 {
+        margin-bottom: 15px;
+    }
+    .mobile {
+        display: block;
+    }
+    .pc {
+        display: none;
+    }
+}
+#NotFound {
+    border: 1px solid #1d2a33;
+    border-radius: 25px;
+    height: 1024px;
+    background: #0f181e;
+    img {
+        margin-top: 80px;
+        width: 63px;
+        height: 63px;
+    }
+    h3 {
+        margin: 0;
+        margin-top: 98px;
+        font-weight: 500;
+        font-size: 34px;
+        text-align: center;
+        color: #fff;
+    }
+    h1 {
+        margin: 0;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 54px;
+        text-align: center;
+        color: #fff;
+    }
+}

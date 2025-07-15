@@ -1,0 +1,155 @@
+#auth {
+    padding-top: 23px;
+    > .img {
+        width: 91px;
+        height: 91px;
+        position: relative;  
+    }    
+    > h2 {
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        margin-top: 11px;
+        margin-bottom: 57px;
+        position: relative;
+        z-index: 2;
+    }    
+    > form {
+        width: 351px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        > input {
+            border: 1px solid #3a4b57;
+            border-radius: 18px;
+            width: 351px;
+            height: 82px;
+            background: none;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 17px;
+
+        } 
+        >input::placeholder {
+            font-weight: 300;
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+        }
+        > button {
+            border: 1px solid #1d2a33;
+            border-radius: 18px;
+            width: 351px;
+            height: 82px;
+            background: #105efe;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 28px;
+        }   
+        >a {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            text-align: center;
+            color: #105efe;
+            text-decoration: none;
+        } 
+        >input.wrong {
+            box-shadow: inset 0 -27px 37px -10px rgba(255, 58, 58, 0.5);
+            background: #0a1116;
+            border: 1px solid #ff0004;
+            margin-bottom: 0;
+        }
+        >p.hide {
+            display: none;
+        }
+        >p.wrong {
+            display: block;
+            font-weight: 300;
+            font-size: 13px;
+            text-align: center;
+            color: #ff0004;
+            margin-top: -25px;
+            margin-bottom: 17px;
+        }
+
+    }   
+    > p {
+        margin-top: 41px;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        a {
+            color: #fff;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+        }
+    } 
+    > p.polit {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 356px;
+        margin-top: 49px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: -0.03em;
+        text-align: center;
+        color: #fff;
+        a {
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #a6a6a6;
+        }
+    }
+    > #blur {
+        border: 1px solid #1d2a33;
+        border-radius: 18px;
+        width: 831px;
+        height: 194px;
+        filter: blur(208px);
+        background: #105efe;
+        position: absolute;
+        top: -81px;
+        left: 50%;
+        transform: translateX(-50%);
+    }  
+} 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #auth {
+        > form {
+            width: 100%;
+            > input {
+                width: 100%;
+            }
+            > button {
+                width: 100%;
+            }
+
+        }
+        > p, >p.polit {
+            width: 100%;
+        }  
+        > #blur {
+            width: 520px;
+        }       
+    }
+}
+@media (max-width: 576px) {
+    #auth {
+        > #blur {
+            width: 289px;
+        }       
+        > h2 {
+            margin-bottom: 25px;
+        }
+    }
+}

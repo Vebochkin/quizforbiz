@@ -1,0 +1,942 @@
+#install {
+    border: 1px solid #1d2a33;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    background: #0f181e;
+    position: relative;
+    padding-top: 37px;
+    padding-bottom: 31px;
+    margin-bottom: 25px;
+    >.head {
+        padding-left: 45px;
+        padding-right: 49px;
+        position: relative;
+        >h2 {
+            margin: 0;
+            margin-left: 3px;
+            font-weight: 500;
+            font-size: 26px;
+            color: #fff;
+        }
+        >.status {
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 18px;
+            width: 140px;
+            height: 30px;
+            background: rgba(255, 187, 91, 0.11);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: 49px;
+            left: auto;
+        }
+        >.link {
+            margin-top: 30px;
+            border: 1px solid rgba(66, 87, 102, 0.38);
+            border-radius: 20px;
+            width: 100%;
+            height: 101px;
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+            background: #151e26;
+            >div {
+                border: 1px solid rgba(66, 87, 102, 0.38);
+                border-radius: 20px;
+                width: 80%;
+                height: 72px;
+                background: none;
+                display: flex;
+                align-items: center;
+                padding-left: 34px;
+                padding-right: 8px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 140%;
+                color: #fff;
+                box-shadow: inset 26px -33px 57px -36px #105efe;
+                background: #151e26;
+                >button {
+                    border-radius: 18px;
+                    width: 139px;
+                    height: 51px;   
+                    border: none;
+                    background: #31495c;
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: #fff;
+                    margin-left: auto;
+                    margin-right: 0;
+                    img {
+                        margin-left: 6px;
+                        margin-top: -3px;
+                    }
+                }
+            }
+        }
+    }
+    >.social {
+        margin-top: 29px;
+        width: 100%;
+        border: none;
+        border-top: 1px solid #1d2a33;
+        border-radius: 25px;
+        height: auto;
+        background: #0f181e;
+        padding: 41px 42px 47px 33px;
+        >h2 {
+            margin: 0;
+            margin-left: 15px;
+            font-weight: 500;
+            font-size: 26px;
+            color: #fff;
+        }
+        >.items {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 39px;
+            .item {
+                border: 1px solid rgba(66, 87, 102, 0.1);
+                border-radius: 20px;
+                width: 33%;
+                height: 196px;
+                padding-top: 19px;
+                padding-left: 29px;
+                position: relative;
+                h6 {
+                    margin: 0;
+                    margin-bottom: 18px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                }
+                p {
+                    margin: 0;
+                    margin-bottom: 28px;
+                    width: 180px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                }
+                button {
+                    border: 1px solid #1d2a33;
+                    border-radius: 18px;
+                    width: 168px;
+                    height: 58px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #5f7483;
+                    background: none;
+                }
+                img {
+                    position: absolute;
+                    left: auto;
+                    top: 13px;
+                    right: 15px;
+                }
+            }
+            >:nth-child(1) {
+                box-shadow: inset -70px -32px 62px -53px #108bfe;
+                background: #141e27;
+            }
+            >:nth-child(2) {
+                box-shadow: inset -70px -32px 62px -53px #10bffe;
+                background: #141e27;
+            }
+            >:nth-child(3) {
+                box-shadow: inset -70px -32px 71px -62px #ff004f;
+                background: #141e27;
+            }
+        }
+    }
+    >.code {
+        width: 100%;
+        border: none;
+        border-top: 1px solid #1d2a33;
+        border-radius: 25px;
+        height: auto;
+        background: #0f181e;
+        padding: 41px 42px 0px 33px;
+        >h2 {
+            margin: 0;
+            margin-left: 15px;
+            font-weight: 500;
+            font-size: 26px;
+            color: #fff;
+            margin-bottom: 37px;
+        }
+        >.init, >.instal {
+            border: 1px solid rgba(66, 87, 102, 0.1);
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+            background: #141e27;
+            padding: 27px 37px 26px 38px;
+            position: relative;
+            margin-bottom: 8px;
+            >h5 {
+                font-weight: 500;
+                font-size: 18px;
+                color: #fff;
+                margin: 0;
+            }
+            >p {
+                font-weight: 300;
+                font-size: 18px;
+                color: #fff;
+                margin: 0;
+                position: absolute;
+                left: auto;
+                top: 24px;
+                right: 37px;
+            }
+            >div {
+                border: 1px solid #1d2a33;
+                border-radius: 25px;
+                width: 100%;
+                height: auto !important;
+                background: #1b2832;
+                margin-top: 28px;
+                font-weight: 300;
+                font-size: 16px;
+                color: #fff;
+                padding: 46px;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                white-space: normal;
+            }
+            >button {
+                position: absolute;
+                left: auto;
+                right: 77px;
+                bottom: 48px;
+                background: #31495c;
+                border: none;
+                border-radius: 18px;
+                width: 139px;
+                height: 51px;
+                font-weight: 300;
+                font-size: 15px;
+                color: #fff;
+                img {
+                    margin-left: 6px;
+                    margin-top: -3px;
+                }
+            }
+        }
+        >p {
+            font-weight: 300;
+            font-size: 18px;
+            margin: 0;
+            margin-top: 41px;
+            margin-left: 39px;
+            margin-bottom: 26px;
+            color: #fff;
+            span {
+                font-weight: 500;
+            }
+        }
+        >.link {
+            border: 1px solid rgba(66, 87, 102, 0.38);
+            border-radius: 20px;
+            width: 100%;
+            height: 101px;
+            background: #151e26;
+            display: flex;
+            align-items: center;
+            padding-left: 57px;
+            padding-right: 77px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 140%;
+            color: #667d8d;
+            >div {
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                margin-right: 0;
+                border: 1px solid rgba(66, 87, 102, 0.38);
+                border-radius: 20px;
+                width: 78%;
+                height: 72px;
+                background: #151e26;
+                padding-left: 34px;
+                padding-right: 16px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 140%;
+                color: #fff;
+                button {
+                    margin-left: auto;
+                    margin-right: 0;
+                    border-radius: 18px;
+                    width: 139px;
+                    height: 51px;
+                    border: none;
+                    background: #31495c;
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #install {
+        border: 0.82px solid #1d2a33;
+        border-radius: 20px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        >.head {
+            padding-right: 40px;
+            padding-left: 36px;
+            >h2 {
+                font-weight: 500;
+                font-size: 21px;
+                color: #fff;
+            }
+            >.status {
+                border-radius: 15px;
+                width: 114px;
+                height: 24px;
+                font-weight: 300;
+                font-size: 11px;
+                color: #fff;
+                right: 40px;
+            }
+            >.link {
+                margin-top: 24px;
+                border: 0.82px solid rgba(66, 87, 102, 0.38);
+                border-radius: 16px;
+                height: 82px;
+                padding-left: 12px;
+                >div {
+                    border: 0.82px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 16px;
+                    width: 526px;
+                    height: 58px;
+                    padding-left: 27px;
+                    padding-right: 6px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #fff;
+                    >button {
+                        border-radius: 15px;
+                        width: 113px;
+                        height: 41px;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #fff;
+                        img {
+                            width: 19px;
+                            height: 19px;
+                            margin-left: 5px;   
+                        }
+                    }
+                }
+            }
+        }
+        >.social {
+            margin-top: 24px;
+            border-top: 0.82px solid #1d2a33;
+            border-radius: 20px;
+            padding: 33px 34px 38px 26px;
+            >h2 {
+                margin-left: 13px;
+                font-weight: 500;
+                font-size: 21px;
+                color: #fff;
+            }
+            >.items {
+                margin-top: 31px;
+                .item {
+                    border: 0.82px solid rgba(66, 87, 102, 0.1);
+                    border-radius: 16px;
+                    width: 240px;
+                    height: 159px;
+                    padding-top: 15px;
+                    padding-left: 23px;
+                    h6 {
+                        margin-bottom: 14px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                    p {
+                        margin-bottom: 22px;
+                        font-weight: 300;
+                        font-size: 11px;
+                        color: #fff;
+                    }
+                    button {
+                        border: 0.82px solid #1d2a33;
+                        border-radius: 15px;
+                        width: 137px;
+                        height: 47px;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #5f7483;
+                    }
+                    img {
+                        right: 12px;
+                        top: 10px;
+                    }
+                }
+                >:nth-child(1) {
+                    img {
+                        width: 30px;
+                        height: 20px;
+                    }
+                }
+                >:nth-child(2) {
+                    img {
+                        width: 24px;
+                        height: 19px;
+                    }
+                }
+                >:nth-child(3) {
+                    img {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+        >.code {
+            border-top: 0.82px solid #1d2a33;
+            border-radius: 20px;
+            padding: 34px 34px 0 27px;
+            >h2 {
+                font-weight: 500;
+                font-size: 21px;
+                color: #fff;
+                margin-left: 13px;
+                margin-bottom: 29px;
+            }
+            >.init, >.instal {
+                border: 0.82px solid rgba(66, 87, 102, 0.1);
+                border-radius: 16px;
+                padding: 22px 30px 20px 30px;
+                margin-bottom: 7px;
+                >h5 {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #fff;
+                }
+                >p {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                    right: 30px;
+                    top: 22px;
+                }
+                >div {
+                    border: 0.82px solid #1d2a33;
+                    border-radius: 20px;
+                    height: 245px;
+                    margin-top: 23px;
+                }
+                >button {
+                    bottom: 39px;
+                    right: 62px;
+                    border-radius: 15px;
+                    width: 113px;
+                    height: 41px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #fff;
+                    img {
+                        margin-left: 5px;
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+            >p {
+                margin-left: 32px;
+                margin-top: 33px;
+                margin-bottom: 21px;
+                font-size: 14px;
+            }
+            >.link {
+                border: 0.82px solid rgba(66, 87, 102, 0.38);
+                border-radius: 16px;
+                height: 82px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 140%;
+                color: #667d8d;
+                padding-left: 46px;
+                padding-right: 63px;
+                >div {
+                    border: 0.82px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 16px;
+                    width: 496px;
+                    height: 58px;
+                    padding-left: 27px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #fff;
+                    padding-right: 12px;
+                    button {
+                        border-radius: 15px;
+                        width: 113px;
+                        height: 41px;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #install {
+        border: 0.68px solid #1d2a33;
+        border-radius: 17px;
+        padding-top: 25px;
+        padding-bottom: 21px;
+        >.head {
+            padding-left: 31px;
+            padding-right: 38px;
+            >h2 {
+                font-weight: 500;
+                font-size: 17px;
+                color: #fff;
+                margin-left: 2px;
+            }
+            >.status {
+                border-radius: 12px;
+                width: 95px;
+                height: 20px;
+                font-weight: 300;
+                font-size: 9px;
+                color: #fff;
+                right: 38px;
+            }
+            >.link {
+                border: 0.68px solid rgba(66, 87, 102, 0.38);
+                border-radius: 14px;
+                height: 69px;
+                padding-left: 10px;
+                margin-top: 19px;
+                >div {
+                    border: 0.68px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 14px;
+                    width: 441px;
+                    height: 49px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 140%;
+                    color: #fff;
+                    padding-left: 23px;
+                    padding-right: 5px;
+                    >button {
+                        border-radius: 12px;
+                        width: 95px;
+                        height: 35px;
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #fff;
+                        img {
+                            margin-left: 4px;
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        >.social {
+            margin-top: 20px;
+            border-top: 0.68px solid #1d2a33;
+            border-radius: 17px;
+            padding: 27px 28px 32px 22px;
+            >h2 {
+                font-weight: 500;
+                font-size: 17px;
+                color: #fff;
+                margin-left: 11px;
+            }
+            >.items {
+                margin-top: 25px;
+                .item {
+                    border: 0.68px solid rgba(66, 87, 102, 0.1);
+                    border-radius: 14px;
+                    width: 201px;
+                    height: 134px;
+                    padding-left: 19px;
+                    padding-top: 13px;
+                    h6 {
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #fff;
+                        margin-bottom: 12px;
+                    }
+                    p {
+                        font-weight: 300;
+                        font-size: 9px;
+                        color: #fff;
+                        margin-bottom: 19px;
+                    }
+                    button {
+                        border: 0.68px solid #1d2a33;
+                        border-radius: 12px;
+                        width: 114px;
+                        height: 39px;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #5f7483;
+                    }
+                    img {
+                        top: 8px;
+                        right: 10px;
+                    }
+                }
+                >:nth-child(1) {
+                    img {
+                        width: 28px;
+                        height: 16px;
+                    }
+                }
+                >:nth-child(2) {
+                    img {
+                        width: 19px;
+                        height: 16px;
+                    }
+                }
+                >:nth-child(3) {
+                    img {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+        >.code {
+            border-top: 0.68px solid #1d2a33;
+            border-radius: 17px;
+            padding: 27px 28px 0 22px;
+            >h2 {
+                font-weight: 500;
+                font-size: 17px;
+                color: #fff;
+                margin-left: 11px;
+                margin-bottom: 24px;
+            }
+            >.init, >.instal {
+                border: 0.68px solid rgba(66, 87, 102, 0.1);
+                border-radius: 14px;
+                padding: 18px 25px;
+                margin-bottom: 5px;
+                >h5 {
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #fff;
+                }
+                >p {
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #fff;
+                    right: 25px;
+                    top: 18px;
+                }
+                >div {
+                    border: 0.68px solid #1d2a33;
+                    border-radius: 17px;
+                    width: 574px;
+                    height: 205px;
+                    margin-top: 19px;
+                }
+                >button {
+                    border-radius: 12px;
+                    width: 95px;
+                    height: 35px;
+                    font-weight: 300;
+                    font-size: 10px;
+                    color: #fff;
+                    right: 52px;
+                    bottom: 33px;
+                    img {
+                        margin-left: 4px;
+                        height: 16px;
+                        width: 16px;
+                    }
+                }
+            }
+            p {
+                font-size: 12px;
+                margin-left: 27px;
+                margin-top: 28px;
+                margin-bottom: 17px;
+            }
+            >.link {
+                border: 0.68px solid rgba(66, 87, 102, 0.38);
+                border-radius: 14px;
+                height: 69px;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 140%;
+                color: #667d8d;
+                padding-left: 38px;
+                padding-right: 53px;
+                >div {
+                    border: 0.68px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 14px;
+                    width: 416px;
+                    height: 49px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 140%;
+                    color: #fff;
+                    padding-left: 23px;
+                    padding-right: 10px;                    
+                    button {
+                        border-radius: 12px;
+                        width: 95px;
+                        height: 35px;
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    #install {
+        padding-top: 25px;
+        padding-bottom: 14px;
+        >.head {
+            padding: 0 9px;
+            >h2 {
+                font-weight: 500;
+                font-size: 20px;
+                color: #fff;
+                margin-left: 5px;
+                margin-bottom: 65px;
+            }
+            >.status {
+                border-radius: 18px;
+                width: 140px;
+                height: 30px;
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+                right: auto;
+                left: 13px;
+                top: 34px;
+            }
+            >.link {
+                border: 1px solid rgba(66, 87, 102, 0.38);
+                border-radius: 20px;
+                height: 150px;
+                position: relative;
+                padding: 14px;
+                display: block;
+                >div {
+                    border: 1px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 20px;
+                    height: 54px;
+                    width: 100%;
+                    padding-left: 14px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #fff;
+                    >button {
+                        border-radius: 18px;
+                        width: 139px;
+                        height: 51px;
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: #fff;
+                        position: absolute;
+                        left: 14px;
+                        bottom: 14px;
+                        img {
+                            margin-left: 6px;
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        >.social {
+            margin-top: 25px;
+            padding: 24px 14px;
+            >h2 {
+                font-weight: 500;
+                font-size: 20px;
+                color: #fff;
+                margin-left: 5px;
+            }
+            >.items {
+                margin-top: 20px;
+                display: block;
+                .item {
+                    width: 100%;
+                    border: 1px solid rgba(66, 87, 102, 0.1);
+                    border-radius: 20px;
+                    height: 196px;
+                    padding-left: 29px;
+                    padding-top: 19px;
+                    margin-bottom: 15px;
+                    h6 {
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #fff;
+                        margin-bottom: 18px;
+                    }
+                    p {
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: #fff;
+                        margin-bottom: 28px;
+                    }
+                    button {
+                        border: 1px solid #1d2a33;
+                        border-radius: 18px;
+                        width: 168px;
+                        height: 58px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #5f7483;
+                    }
+                    img {
+                        top: 12px;
+                        right: 13px;
+                    }
+                }
+                >:nth-child(1) {
+                    img {
+                        width: 41px;
+                        height: 24px;
+                    }
+                }
+                >:nth-child(2) {
+                    img {
+                        width: 29px;
+                        height: 24px;
+                    }
+                }
+                >:nth-child(3) {
+                    margin: 0;
+                    img {
+                        width: 28px;
+                        height: 28px;
+                    }    
+                }
+            }
+        }
+        >.code {
+            padding: 24px 9px 0;
+            >h2 {
+                font-weight: 500;
+                font-size: 20px;
+                color: #fff;
+                margin-left: 5px;
+                margin-bottom: 25px;
+            }
+            >.init, >.instal {
+                border: 1px solid rgba(66, 87, 102, 0.1);
+                border-radius: 20px;
+                padding: 19px 9px 9px;
+                >h5 {
+                    margin-bottom: 52px;
+                    margin-left: 5px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #fff;
+                }
+                >p {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #fff;
+                    left: 14px;
+                    top: 53px;
+                    right: auto;
+                }
+                >div {
+                    border: 1px solid #1d2a33;
+                    border-radius: 15px;
+                    height: 337px;
+                    margin: 0;
+                }
+                >button {
+                    border-radius: 18px;
+                    width: 139px;
+                    height: 51px;
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: #fff;
+                    right: 14px;
+                    bottom: 15px;
+                    img {
+                        margin-left: 6px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            >.instal {
+                h5 {
+                    margin-bottom: 69px;
+                }
+            }
+            p {
+                margin-bottom: 20px;
+                margin-top: 34px;
+                margin-left: 5px;
+                font-size: 16px;
+            }
+            >.link {
+                border: 1px solid rgba(66, 87, 102, 0.38);
+                border-radius: 20px;
+                height: 190px;
+                padding: 19px 14px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 140%;
+                color: #667d8d;
+                display: block;
+                position: relative;
+                >div {
+                    border: 1px solid rgba(66, 87, 102, 0.38);
+                    border-radius: 20px;
+                    height: 54px;
+                    margin: 0;
+                    margin-top: 12px;
+                    padding-left: 14px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #fff;
+                    button {
+                        border-radius: 18px;
+                        width: 141px;
+                        height: 51px;
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 12px;
+                        left: 14px;
+                    }
+                }
+            }
+        }   
+    }
+}
